@@ -35,7 +35,7 @@ img {
 }
 
 .first-page {
-    min-height: 50vh;
+    min-height: 60vh;
     background-color: black;
     display: flex;
     align-items: center;
