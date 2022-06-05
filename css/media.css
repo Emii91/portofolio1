@@ -46,6 +46,14 @@
     p {
         padding: 0;
     }
+
+    .typing {
+        min-height: 70vh;
+    }
+
+    .first-p {
+        padding: 50px;
+    }
 }
 
 @media screen and (max-width: 364px) {
