@@ -1,5 +1,19 @@
+@media screen and (max-width: 1245px) {
+    .first-page {
+        display: grid;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    .wrapper {
+        display: block;
+    }
+}
+
 @media screen and (max-width: 900px) {
-    main {
+    .projects {
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -8,10 +22,39 @@
     .container {
         margin: 20px 0px;
     }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 450px) {
+    img {
+        width: 250px;
+    }
+
+    .wrapper .static-text {
+        font-size: 40px;
+        text-align: center;
+    }
+
     h1 {
         font-size: 40px;
+    }
+
+    p {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    .card {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .first-dynamic li {
+        font-size: 35px;
     }
 }
